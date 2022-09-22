@@ -17,6 +17,7 @@ class _CardFlipState extends State<CardFlip> {
         title: const Text('Card Flip example app'),
         centerTitle: true,
       ),
+      //listview buildert
       body: ListView.builder(
           itemCount: 100,
           itemBuilder: (context, index) {
